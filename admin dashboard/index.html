@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin dashboard</title>
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <!-- my style -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <ul>
+                <li>
+                    <i class="fas fa-laptop-code"></i>
+                    <h2 id="brand">purpleProgram</h2>
+                </li>
+                <li>
+                    <i class="fas fa-home"></i>
+                    <h2>home</h2>
+                </li>
+                <li>
+                    <i class="fas fa-cog"></i>
+                    <h2>settings</h2>
+                </li>
+                <li>
+                    <i class="fas fa-shield-alt"></i>
+                    <h2>security</h2>
+                </li>
+                <li>
+                    <i class="fas fa-user-friends"></i>
+                    <h2>contact</h2>
+                </li>
+                <li>
+                    <i class="fas fa-id-card"></i>
+                    <h2>about</h2>
+                </li>
+                <li>
+                    <i class="fas fa-lock"></i>
+                    <h2>password</h2>
+                </li>
+                <li>
+                    <i class="fas fa-sign-out-alt"></i>
+                    <h2>logout</h2>
+                </li>
+            </ul>
+        </div>
+        <div class="main">
+            <div class="topbar">
+                <div class="toggler">
+                    <i class="fas fa-align-justify"></i>
+                </div>
+                <div class="search">
+                    <i class="fas fa-search"></i>
+                    <input type="text" placeholder="serach...">
+                </div>
+                <div class="user">
+                    <div class="img-box">
+                        <img src="./images/girl7.jpg" alt="">
+                    </div>
+                    <p>Engineer</p>
+                </div>
+            </div>
+            <div class="cards">
+                <div class="card">
+                    <div class="card-header">
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <div class="card-body">
+                        <div class="number">
+                            123,980
+                        </div>
+                        <p>Visitors</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <i class="far fa-comments"></i>
+                    </div>
+                    <div class="card-body">
+                        <div class="number">
+                            12,392
+                        </div>
+                        <p>Messages</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <div class="card-body">
+                        <div class="number">
+                            10,293
+                        </div>
+                        <p>Sails</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <div class="card-body">
+                        <div class="number">
+                            2,231
+                        </div>
+                        <p>Verified</p>
+                    </div>
+                </div>
+            </div>
+
+            <!--  -->
+            <div class="body">
+                <div class="table">
+                    <table>
+                        <tr class="table-head">
+                            <th>name</th>
+                            <th>email</th>
+                            <th>password</th>
+                            <th>status</th>
+                        </tr>
+                        <tr>
+                            <td>Ahmed</td>
+                            <td>Ahmed@gm</td>
+                            <td>Ahmed123</td>
+                            <td class="status ver">verified</td>
+                        </tr>
+                        <tr>
+                            <td>Ali</td>
+                            <td>Ali@gm</td>
+                            <td>Ali123</td>
+                            <td class="status return">return</td>
+                        </tr>
+                        <tr>
+                            <td>Sami</td>
+                            <td>Sami@gm</td>
+                            <td>Sami123</td>
+                            <td class="status reject">reject</td>
+                        </tr>
+                        <tr>
+                            <td>Jawad</td>
+                            <td>Jawad@gm</td>
+                            <td>Jwa12da3</td>
+                            <td class="status ver">verified</td>
+                        </tr>
+                        <tr>
+                            <td>Haithm</td>
+                            <td>AHaith</td>
+                            <td>Ha1ithm23</td>
+                            <td class="status return">return</td>
+                        </tr>
+                        <tr>
+                            <td>Ali</td>
+                            <td>Ali@gm</td>
+                            <td>Ali123</td>
+                            <td class="status return">return</td>
+                        </tr>
+                        <tr>
+                            <td>Zoz</td>
+                            <td>Sami@gm</td>
+                            <td>Sami123</td>
+                            <td class="status reject">reject</td>
+                        </tr>
+                        <tr>
+                            <td>Jawad</td>
+                            <td>Jawad@gm</td>
+                            <td>Jwa12da3</td>
+                            <td class="status ver">verified</td>
+                        </tr>
+                        <tr>
+                            <td>Jawad</td>
+                            <td>Jawad@gm</td>
+                            <td>Jwa12da3</td>
+                            <td class="status ver">verified</td>
+                        </tr>
+                        <tr>
+                            <td>Haithm</td>
+                            <td>AHaith</td>
+                            <td>Ha1ithm23</td>
+                            <td class="status return">return</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="customers">
+                    <div class="customer">
+                        <div class="img-box">
+                            <img src="./images/girl1.jpg" alt="">
+                        </div>
+                        <div class="cus-info">
+                            <div class="cus-name">Sara</div>
+                            <div class="cus-title">Engineer</div>
+                        </div>
+                    </div>
+                    <div class="customer">
+                        <div class="img-box">
+                            <img src="./images/girl2.jpg" alt="">
+                        </div>
+                        <div class="cus-info">
+                            <div class="cus-name">Zaineb</div>
+                            <div class="cus-title">Engineer</div>
+                        </div>
+                    </div>
+                    <div class="customer">
+                        <div class="img-box">
+                            <img src="./images/girl3.jpg" alt="">
+                        </div>
+                        <div class="cus-info">
+                            <div class="cus-name">Zahraa</div>
+                            <div class="cus-title">front-end</div>
+                        </div>
+                    </div>
+                    <div class="customer">
+                        <div class="img-box">
+                            <img src="./images/girl4.jpg" alt="">
+                        </div>
+                        <div class="cus-info">
+                            <div class="cus-name">Rafal</div>
+                            <div class="cus-title">scientest</div>
+                        </div>
+                    </div>
+                    <div class="customer">
+                        <div class="img-box">
+                            <img src="./images/girl5.jpg" alt="">
+                        </div>
+                        <div class="cus-info">
+                            <div class="cus-name">Ansaam</div>
+                            <div class="cus-title">Engineer</div>
+                        </div>
+                    </div>
+                    <div class="customer">
+                        <div class="img-box">
+                            <img src="./images/girl6.jpg" alt="">
+                        </div>
+                        <div class="cus-info">
+                            <div class="cus-name">Mariam</div>
+                            <div class="cus-title">Doctor</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./main.js"></script>
+</body>
+</html>
